@@ -1,0 +1,227 @@
+.container {
+    // max-width: 1400px !important;
+}
+.not-front-page {
+    // margin-top: 113px;
+    // @media (max-width: 576px) {
+    //     margin-top: 67px;
+    // }
+}
+.about-coverage-list {
+    ul {
+        li {
+            font-size: 20px;
+            color: #000;
+            list-style: none;
+            &::before {
+                content: "\2022";
+                color: #708053;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                height: 1em;
+            }
+        }
+    }
+}
+.eliahu-google-map {
+    p {
+        margin-bottom: 0;
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+#gform_wrapper_1 {
+    position: relative;
+    padding: 20px;
+    border: 3px solid #708053;
+    #gform_1 {
+        .gform_heading {
+            h3 {
+                color: #708053;
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+        .gform_body {
+            ul {
+                li {
+                    label {
+                        color: #708053;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                    .ginput_container {
+                        input, textarea {
+                            padding: 10px;
+                            font-size: 14px;
+                            font-family: 'Montserrat', sans-serif;
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .gform_footer {
+            #gform_submit_button_1 {
+                padding: 10px 30px;
+                font-size: 14px;
+                color: #708053;
+                background: transparent;
+                border-radius: 0;
+                border: 2px solid #708053;
+                transition: .3s;
+                outline: none;
+                text-transform: uppercase;
+                &:hover {
+                    background: #708053;
+                    color: #fff;
+                }
+            }
+          }
+    }
+}
+#navbarNavDropdown {
+    ul {
+        li {
+        
+            &::after {
+                content: "";
+                
+            }
+        }
+    }
+}
+.news-single {
+    margin: 40px 0;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    header {
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    .entry-content {
+        padding: 20px;
+        h1 {
+            font-size: 35px;
+            color: #708053;
+        }
+        .entry-meta {
+            margin-bottom: 30px;
+            span {
+                font-size: 18px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+.archive-card-post {
+    position: relative;
+    article {
+        display: flex;
+        gap: 20px;
+        header {
+            max-width: 300px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+       
+        }
+        .entry-content {
+            width: 80%;
+            p {
+                font-size: 16px;
+            }
+          span {
+              font-size: 14px;
+          }
+           h2 {
+                a {
+                    font-size: 30px;
+                    color: #708053;
+                    text-decoration: none;
+                }
+           }
+        }
+    }
+    article + article {
+        margin-top: 20px;
+    }
+}
+
+.understrap-read-more-link {
+    display: none;
+}
+.news-single {
+    position: relative;
+    margin: 75px 0 150px;
+    @media (max-width: 576px) {
+        margin: initial;
+    }
+    article {
+        position: relative;
+        header {
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        .entry-footer {
+            position: relative;
+            span {
+                padding: 20px;
+                a {
+                    color: #fff;
+                    font-size: 13px;
+                    background: crimson;
+                    padding: 10px 15px;
+                }
+            }
+        }
+        .single-entry-content {
+            padding: 20px;
+            h1 {
+                font-size: 35px;
+                color: #708053;
+                @media (max-width: 576px) {
+                    font-size: 20px;
+                }
+            }
+            .entry-meta {
+                font-size: 16px;
+                padding: 10px 0;
+                margin: 0 0 40px;
+                color: #555;
+                @media (max-width: 576px) {
+                    font-size: 13px;
+                }
+            }
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                @media (max-width: 576px) {
+                    font-size: 16px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .post-navigation {
+        position: relative;
+        span {
+            font-size: 16px;
+            padding: 30px 20px;
+
+        }
+    }
+}
